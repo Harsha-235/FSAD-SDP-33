@@ -76,11 +76,9 @@ export default function LoginPage() {
           </form>
 
           <div className="mt-6 p-4 bg-gray-50 rounded-lg space-y-2">
-            <p className="text-xs text-gray-600 font-semibold">Demo Credentials:</p>
-            <div className="text-xs text-gray-600 space-y-1">
-              <p><strong>Admin:</strong> admin@university.edu / admin123</p>
-              <p><strong>Student:</strong> student@university.edu / student123</p>
-            </div>
+            
+             
+           
           </div>
         </CardContent>
       </Card>
