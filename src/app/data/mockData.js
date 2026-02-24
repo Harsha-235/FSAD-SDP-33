@@ -3,7 +3,7 @@ export const mockCourses = [
     id: '1',
     code: 'CS101',
     name: 'Introduction to Computer Science',
-    instructor: 'Dr. Sarah Johnson',
+    instructor: 'Dr. Harsha Ganesh',
     department: 'Computer Science',
     semester: 'ODD SEM 2026'
   },
@@ -11,7 +11,7 @@ export const mockCourses = [
     id: '2',
     code: 'MATH201',
     name: 'Advanced Calculus',
-    instructor: 'Prof. Michael Chen',
+    instructor: 'Prof. Shyam Chandu',
     department: 'Mathematics',
     semester: 'ODD SEM 2026'
   },
@@ -19,7 +19,7 @@ export const mockCourses = [
     id: '3',
     code: 'ENG102',
     name: 'English Composition',
-    instructor: 'Dr. Emily Rodriguez',
+    instructor: 'Dr. Yaswanth',
     department: 'English',
     semester: 'ODD SEM 2026'
   },
@@ -27,7 +27,7 @@ export const mockCourses = [
     id: '4',
     code: 'PHYS301',
     name: 'Quantum Mechanics',
-    instructor: 'Dr. James Wilson',
+    instructor: 'Dr. B.Venkateswarulu',
     department: 'Physics',
     semester: 'ODD SEM 2026'
   },
@@ -35,7 +35,7 @@ export const mockCourses = [
     id: '5',
     code: 'BIO150',
     name: 'Cell Biology',
-    instructor: 'Prof. Maria Garcia',
+    instructor: 'Prof. Dhoni',
     department: 'Biology',
     semester: 'ODD SEM 2026'
   }
@@ -44,31 +44,31 @@ export const mockCourses = [
 export const mockInstructors = [
   {
     id: '1',
-    name: 'Dr. Sarah Johnson',
+    name: 'Dr. Harsha Ganesh',
     department: 'Computer Science',
     courses: ['CS101', 'CS201', 'CS301']
   },
   {
     id: '2',
-    name: 'Prof. Michael Chen',
+    name: 'Prof. Shyam Chandu',
     department: 'Mathematics',
     courses: ['MATH201', 'MATH301']
   },
   {
     id: '3',
-    name: 'Dr. Emily Rodriguez',
+    name: 'Dr. Yaswanth',
     department: 'English',
     courses: ['ENG102', 'ENG205']
   },
   {
     id: '4',
-    name: 'Dr. James Wilson',
+    name: 'Dr. B.Venkateswarulu',
     department: 'Physics',
     courses: ['PHYS301', 'PHYS401']
   },
   {
     id: '5',
-    name: 'Prof. Maria Garcia',
+    name: 'Prof. Dhoni',
     department: 'Biology',
     courses: ['BIO150', 'BIO250']
   }
@@ -123,7 +123,7 @@ export const mockFeedbacks = [
     studentId: 'S002',
     type: 'instructor',
     targetId: '1',
-    targetName: 'Dr. Sarah Johnson',
+    targetName: 'Dr. Harsha Ganesh',
     rating: 5,
     comments: 'Very knowledgeable and approachable instructor.',
     timestamp: '2026-02-19T14:20:00Z'
@@ -154,7 +154,7 @@ export const mockFeedbacks = [
     studentId: 'S004',
     type: 'instructor',
     targetId: '2',
-    targetName: 'Prof. Michael Chen',
+    targetName: 'Prof. Shyam Chandu',
     rating: 5,
     comments: 'Makes complex topics easy to understand.',
     timestamp: '2026-02-16T16:00:00Z'
